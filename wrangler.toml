@@ -1,14 +1,7 @@
-name = "script-name-dev"
+name = "git"
 type = "webpack"
-webpack_config = "./packages/worker/webpack.config.js"
-account_id = "5a883b414d4090a1442b20361f3c43a9"
+account_id = "d9c4a171c4a0d0a8e6f8204ae9ba0638"
 workers_dev = true
-
-kv-namespaces = []
-
-[site]
-bucket = "./packages/client/build"
-entry-point = "./packages/worker"
-
-[env.production]
-name = "script-name"
+zone_id = "cd7d068de3012345da9420df9514dad0"
+webpack_config = "./packages/worker/webpack.config.js"
+vars = {TOKEN="991047353:AAEwOd9vEYM9wQUR4tbcGgkbHpaIcUwxtWk"}
